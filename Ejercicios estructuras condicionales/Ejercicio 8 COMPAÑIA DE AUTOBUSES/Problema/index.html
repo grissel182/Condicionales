@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Compañia de autobuses</title>
+  <link rel="stylesheet" href="estilos/main.css">
+  <link rel="stylesheet" href="estilos/bootstrap.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Ejercicio #8: COMPAÑIA DE AUTOBUSES</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>Una compañía de viajes cuenta con tres tipos de autobuses (A, B y C), cada uno tiene un precio por kilómetro recorrido por persona, los costos respectivos son $2.0, $2.5 y $3.0.
+					<br>Se requiere determinar el costo total y por persona del viaje considerando que cuando éste se presupuesta debe haber un mínimo de 20 personas, de lo contrario el cobro se realiza con base en este número límite
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="pseudo">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<h2>Pseudocodigo</h2>
+					<div class="tabla" >
+		                <table >
+		                    <tr>
+		                        <td>
+		                           	Variable
+		                        </td>
+		                        <td >
+		                            Descripción
+		                        </td>
+		                        <td>
+		                            Tipo
+		                        </td>
+		                    </tr>
+		                    <tr>
+		                        <td >
+		                            A
+		                        </td>
+		                        <td>
+		                        	Autobus que cobra
+		                            $2.00 por km
+		                        </td>
+		                        <td>
+		                            Int / Float
+		                        </td>
+		                    </tr>
+		                    <tr>
+		                        <td >
+		                            B
+		                        </td>
+		                        <td>
+		                           Autobus que cobra
+		                           $2.50 por km 
+		                        </td>
+		                        <td>
+		                            Int / Float
+		                        </td>
+		                    </tr>
+		                    <tr>
+		                        <td >
+		                            C
+		                        </td>
+		                        <td>
+		                            Autobus que cobra
+		                            $3.00 por km
+		                        </td>
+		                        <td>
+		                            Int / Float
+		                        </td>
+		                    </tr>		
+		                    <tr>
+		                        <td >
+		                            P
+		                        </td>
+		                        <td>
+		                            Número de personas de viaje
+		                        </td>
+		                        <td>
+		                            Int 
+		                        </td>
+		                    </tr> 
+		                    <tr>
+		                        <td >
+		                            Km
+		                        </td>
+		                        <td>
+		                            Número de kilometros a recorrer
+		                        </td>
+		                        <td>
+		                            Int / Float
+		                        </td>
+		                    </tr>  
+		                    <tr>
+		                        <td >
+		                            Min
+		                        </td>
+		                        <td>
+		                            20, número mínimo de personas
+		                        </td>
+		                        <td>
+		                            Int
+		                        </td>
+		                    </tr>  
+		                    <tr>
+		                        <td >
+		                            Costo 
+		                        </td>
+		                        <td>
+		                            Km por precio seleccionado, costo unitario
+		                        </td>
+		                        <td>
+		                            Int /Float
+		                        </td>
+		                    </tr> 
+		                    <tr>
+		                        <td >
+		                            Total
+		                        </td>
+		                        <td>
+		                            Costo total del camion (por todas las personas y todo el kilometraje)
+		                        </td>
+		                        <td>
+		                            Int / Float
+		                        </td>
+		                    </tr>              
+		                </table>
+		            </div>
+		            <div>
+		            	<ol>
+		            		<li>Inicio</li>
+		            		<li>Leer A, B, C, Km, P, Min</li>
+		            		<li>Multiplicar Km * A, B, o C = Costo</li>
+		            		<li>Multiplicar el Costo¨* P = Total (el # min de personas es 20)</li>
+		            		<li>Mostrar el Costo unitario y costo total</li>
+		            		<li>Fin</li>
+		            	</ol>
+		            </div>
+            		<!-- fin tabla -->
+				</div>
+				<div class="col-md-5">
+					<h2>Diagrama</h2>
+					<img src="estilos/1.png" alt="Diagrama">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
